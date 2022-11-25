@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+    color: black;
+  }
+  
+  :root {
+    --primary-blue: #2073c5;
+  }
+  
+  main,
+  footer {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero {
+    color: #2073c5;
+    padding-top: 0.5rem;
+  }
+  
+  .nav {
+    background-color: black;
+    padding: 1rem;
+  }
+  
+  .nav-game {
+    text-align: right;
+  }
+  
+  .description {
+    margin: 1rem;
+  }
+  
+  .label {
+    margin: 1rem;
+    font-size: larger;
+  }
+  
+  .input {
+    font-size: larger;
+    padding: 0.3rem;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 0.5rem;
+  }
+  
+  ::placeholder {
+    text-align: center;
+  }
+  
+  .question {
+    font-size: larger;
+    margin-bottom: 1rem;
+  }
+  
+  .option {
+    font-size: larger;
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .question-container {
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid black;
+    box-shadow: 2px 2px 6px grey;
+    border-radius: 0.4rem;
+  }
+  
+  .btn {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    border: none;
+    border-radius: 0.3rem;
+    border-color: black;
+    font-size: large;
+    cursor: pointer;
+  }
+  
+  .link {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .list-item-inline {
+    display: inline-block;
+  }
+  
+  .message {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 3rem;
+    color: royalblue;
+    font-weight: 1000;
+  }
+  
+  .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    min-height: 20vh;
+    text-align: center;
+    border: 1px solid blACK;
+    background-color: lightgreen;
+    border: none;
+}
+
+.list{
+    padding-top:20px ;
+    display: flex;
+    gap: 46px;
+    /* text-decoration: none; */
+    list-style: none;
+    font-weight: bold;
+    
+}
+.list li a{
+    text-decoration:none;
+    color:black;
+}
+.list li:hover {
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
